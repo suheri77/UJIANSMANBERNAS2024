@@ -1,0 +1,15 @@
+.clock-container {
+    display: flex; /* Gunakan flexbox */
+    justify-content: center; /* Pusatkan secara horizontal */
+    align-items: center; /* Pusatkan secara vertikal */
+    height: 10vh; /* Setel tinggi kontainer ke tinggi viewport penuh */
+}
+
+.digital-clock {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif; /* Menggunakan font yang lebih futuristik */
+    transition: color 0.5s ease; /* Tambahkan transisi untuk perubahan warna yang halus */
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.8); /* Tambahkan efek bayangan */
+    transform: scale(1.2); /* Skala ukuran jam */
+}
